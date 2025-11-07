@@ -1,0 +1,133 @@
+/* @media (min-width: 450px) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav-ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__nav-ul-li {
+        display: flex;
+    }
+
+    .header__nav-ul-li-p1,
+    .header__nav-ul-li-p2,
+    .header__nav-ul-li-p3,
+    .header__nav-ul-li-p4 {
+        font-size: 15px;
+    }
+
+    .header__nav-img {
+        width: 180px;
+        height: 55px;
+    }
+
+    .section__nav {
+        display: flex;
+        margin-top: 25px;
+        background: url(./img/banner-zubi4.png)no-repeat;
+        width: 430px;
+        height: 260px;
+        background-size: auto 100;
+        border-radius: 30px;
+        box-shadow: 0px 5px 20px 8px #0000001A;
+    }
+
+} */
+
+/* @media (max-width: 800px) {
+
+    .header_nav-ul-li-p1,
+    .header_nav-ul-li-p2,
+    .header_nav-ul-li-p3,
+    .header_nav-ul-li-p4 {
+        font-size: 22px;
+    }
+
+    .header__nav-img {
+        width: 170px;
+        height: 55px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .header_nav-ul-li-p1,
+    .header_nav-ul-li-p2,
+    .header_nav-ul-li-p3,
+    .header_nav-ul-li-p4 {
+        font-size: 15px;
+    }
+
+
+} */
+
+@media (max-width: 431px) {
+
+    .header {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .header__nav-img {
+        max-width: 96px;
+        max-height: 50px;
+
+    }
+
+    .header__nav-ul {
+        display: flex;
+
+    }
+
+    .header__nav-ul-li {
+        display: flex;
+        gap: 10px;
+
+    }
+
+
+    .header__nav-ul-li-p1,
+    .header__nav-ul-li-p2,
+    .header__nav-ul-li-p3,
+    .header__nav-ul-li-p4 {
+        font-size: 10px;
+
+    }
+
+
+
+
+    .section {
+        display: flex;
+
+    }
+
+    .section__nav-img {
+        display: flex;
+        max-width: 400px;
+        max-height: 265px;
+    }
+
+    .section__nav-box-first {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .section__nav-box-first-blur {}
+
+    .section__nav-box-first-texts {}
+}
